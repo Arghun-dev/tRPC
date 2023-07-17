@@ -1,4 +1,4 @@
-# tRPC - monorepo - solid.js - express - vite
+# tRPC - monorepo - solid.js
 
 In this repo I want to learn all of these concepts at the same time.
 
