@@ -14,7 +14,7 @@ const CreateEditBlog = () => {
   };
 
   return (
-    <div>
+    <div class="flex flex-col items-start">
       <input
         type="text"
         placeholder="title"

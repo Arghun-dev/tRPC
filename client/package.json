@@ -9,8 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@kobalte/core": "^0.9.8",
     "@trpc/client": "^10.34.0",
-    "solid-js": "^1.7.7"
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.26",
+    "solid-js": "^1.7.7",
+    "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
     "typescript": "^5.0.2",
