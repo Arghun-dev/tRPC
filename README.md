@@ -10,10 +10,10 @@ I'm using yarn workspaces to create my monorepo app.
 
 ```json
 {
-    "private": true,
-    "name": "trpc-monorepo-solid",
-    "workspaces": [],
-    "scripts": {}
+  "private": true,
+  "name": "trpc-monorepo-solid",
+  "workspaces": [],
+  "scripts": {}
 }
 ```
 

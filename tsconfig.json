@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "useDefineForClassFields": true,
+    "module": "CommonJS",
+    "lib": ["es5", "dom"],
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@client": ["client/*"],
+      "@server": ["server/*"],
+      "@types": ["types/*"],
+      "@components": ["client/components/*"],
+      "@clientServices": ["client/services/*"],
+      "@serverLib": ["server/lib/*"]
+    }
+  },
+  "include": ["client", "server", "types"]
+}

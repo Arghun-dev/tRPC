@@ -1,17 +1,16 @@
-import express from 'express'
+import dotenv from 'dotenv';
+import cors from 'cors';
+import { createHTTPServer } from '@trpc/server/adapters/standalone';
 
-const app = express()
+import { appRouter } from './router';
 
-// const blogs = [
-//     { id: 1, title: 'Blog 1', description: 'Description 1' },
-//     { id: 2, title: 'Blog2', description: 'Description 2' },
-//     { id: 3, title: 'Blog3', description: 'Description 3' },
-// ]
+dotenv.config();
 
-app.get('/', (req, res) => {
-    res.send('Hello World!')
-})
+const server = createHTTPServer({
+  router: appRouter,
+  middleware: cors(),
+});
 
-app.listen(process.env.PORT, () => {
-    console.log('Server is running on port 3000')
-})
+const port: number = Number(process.env.PORT);
+
+server.listen(port);
