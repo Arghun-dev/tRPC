@@ -1,5 +1,8 @@
 import { createSignal } from 'solid-js';
 import { trpc } from '../utils/trpc';
+import Button from './atoms/Button';
+import Input from './atoms/Input';
+import Card from './atoms/Card';
 
 const CreateEditBlog = () => {
   const [title, setTitle] = createSignal('');
@@ -14,21 +17,21 @@ const CreateEditBlog = () => {
   };
 
   return (
-    <div class="flex flex-col items-start">
-      <input
-        type="text"
-        placeholder="title"
-        value={title()}
-        onChange={(e) => setTitle(e.target.value)}
-      />
-      <input
-        type="text"
-        placeholder="description"
-        value={description()}
-        onChange={(e) => setDescription(e.target.value)}
-      />
-      <button onClick={submit}>submit</button>
-    </div>
+    <Card title="Create New Blog">
+      <div class="flex justify-between">
+        <Input
+          value={title()}
+          label="Title"
+          onChange={(value) => setTitle(value)}
+        />
+        <Input
+          label="Description"
+          value={description()}
+          onChange={(value) => setDescription(value)}
+        />
+      </div>
+      <Button text="submit" onClick={submit} />
+    </Card>
   );
 };
 

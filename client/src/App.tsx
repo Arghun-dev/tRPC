@@ -6,10 +6,10 @@ function App() {
   return (
     <Layout>
       <div class="m-12 grid grid-cols-3 gap-6">
-        <div class="col-span-2">
+        <div class="lg:col-span-2 sm:col-span-3">
           <Blogs />
         </div>
-        <div class="col-span-1">
+        <div class="lg:col-span-1 sm:col-span-3">
           <CreateEditBlog />
         </div>
       </div>
