@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@prisma/client": "^5.0.0",
-    "@trpc/server": "^10.34.0",
+    "@trpc/server": "^10.38.4",
     "@types/cors": "^2.8.13",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
