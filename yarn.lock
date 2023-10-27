@@ -727,15 +727,15 @@
   dependencies:
     tslib "^2.4.0"
 
-"@trpc/client@^10.34.0":
-  version "10.34.0"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.34.0.tgz#cd9bc5ec4801dde24bb343408c7fe203595db538"
-  integrity sha512-nqtDTIqSY/9syo2EjSy4WWWXPU9GsamEh9Tsg698gLAh1nhgFc5+/YYeb+Ne1pbvWGZ5/3t9Dcz3h4wMyyJ9gQ==
+"@trpc/client@^10.43.0":
+  version "10.43.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.43.0.tgz#b99dadc064c3d8352dc66c5cdf9ed75cd94cf3c6"
+  integrity sha512-8LbSpPHmIseb/Ke+GzL45y0itkKunGQWfxqHf2uy69RSRvER0vj+Gu67L8YD86FBgc/nsX/6GBuJiUet5lIDIw==
 
-"@trpc/server@^10.34.0":
-  version "10.34.0"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.34.0.tgz#0c56ca4a72f41bfc558b07a2db70d54b77077f8f"
-  integrity sha512-2VMW44Fpaoyqb50dBtzdSWMhqt8lmoJiocEyBBeDb03R0W+XrzbVD5kU/wqKPlcp1DWeNCkOEIMtetMZCfo1hA==
+"@trpc/server@^10.43.0":
+  version "10.43.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.43.0.tgz#3435feeeb83337b0333a441ff15b181d4bf101f5"
+  integrity sha512-1/h9KCPkTNNmpN5VKfKO4kPcl/W4Y9VQla4YGg4pydSh/+4b//0IPfvk3Oz4tz/tvWyAUlBKkBVhD3GfDLcAQA==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
